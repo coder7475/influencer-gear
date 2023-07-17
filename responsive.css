@@ -1,0 +1,16 @@
+/* Mobile devices */
+@media screen and (max-width: 576px){
+    .nav-container {
+        flex-direction: column;
+    }
+    .nav-bar > ul{
+        flex-direction: column;
+    }
+}
+
+/* table like devices */
+@media screen and (max-width: 996px){
+    .nav-container {
+        flex-direction: column;
+    }
+}
