@@ -22,17 +22,70 @@ nav-title {
 }
 
 /* flex container */
-.nav-container {
+.nav-container{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 33%;
     margin: 1em auto;
-
 }
 
 .nav-bar > ul{
     display: flex;
     justify-content: space-around;
     gap: 2em;
+}
+
+/* banner styles */
+
+.banner-image{
+    background: url("images/Circle.svg") no-repeat;
+    /* width: 100%; */
+    /* margin: 0 auto; */
+    /* height: auto; */
+    /* width: 50%; */
+    /* background-color: black; */
+}
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3em;
+    margin: 0 6.5em;
+    gap: 30em;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+    /* width: max-content; */
+    gap: 0.3em;
+}
+
+.banner-title {
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: 700;
+    /* width: auto; */
+}
+
+.banner-text {
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-primary {
+    border-radius: 41px;
+    background: #E02C6D;
+    color: white;
+    padding: 10px 24px;
+    width: max-content;
+}
+
+.btn-text {
+    font-size: 16px;
+    font-weight: 700;
 }

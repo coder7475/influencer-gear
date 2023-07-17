@@ -1,16 +1,19 @@
 /* Mobile devices */
 @media screen and (max-width: 576px){
-    .nav-container {
+    .nav-container, .banner-container{
         flex-direction: column;
+        gap: 20px;
     }
     .nav-bar > ul{
         flex-direction: column;
     }
+
 }
 
 /* table like devices */
-@media screen and (max-width: 996px){
-    .nav-container {
+@media screen and (max-width: 1024px){
+    .nav-container, .banner-container {
         flex-direction: column;
+        gap: 50px;
     }
 }
