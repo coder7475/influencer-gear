@@ -112,7 +112,7 @@ nav-title {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid: 100px;
+    /* grid: 100px; */
 }
 .collection-item {
     display: flex;
@@ -191,3 +191,28 @@ button[type="submit"] {
     font-size: 16px;
     font-weight: 700;
 }
+/* footer styles */
+.footer-container {
+    background: rgb(81, 71, 71);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 40px;
+}
+.footer-title {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer-text {
+    color:  #D9DBE1;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
