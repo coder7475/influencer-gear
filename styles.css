@@ -144,3 +144,12 @@ h6 {
     font-weight: 600;
 }
 
+.see-more {
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 15em;
+    text-align: right;
+    position: relative;
+    bottom: 6em;
+}
