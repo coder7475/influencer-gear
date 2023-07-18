@@ -153,3 +153,41 @@ h6 {
     position: relative;
     bottom: 6em;
 }
+
+/* features styles */
+.feature-products {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    margin: 1em 12em;
+    gap: 8em;
+}
+
+.feature-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.feature-title {
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.feature-text {
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+button[type="submit"] {
+    border: 0;
+    width: 10em;
+    background: #E02C6D;
+    padding: 10px 24px;
+    gap: 8px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+}
