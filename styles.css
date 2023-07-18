@@ -89,3 +89,11 @@ nav-title {
     font-size: 16px;
     font-weight: 700;
 }
+
+/* Logos container */
+.logo-container {
+    border: 2px dashed lightgray;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10em;
+}

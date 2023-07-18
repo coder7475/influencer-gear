@@ -7,11 +7,21 @@
     .nav-bar > ul{
         flex-direction: column;
     }
+    .logo-container {
+        flex-direction: column;
+        /* margin: 0 auto; */
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .logo-container img {
+        width: 10em;
 
+    }
 }
 
 /* table like devices */
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1312px){
     .nav-container, .banner-container {
         flex-direction: column;
         gap: 50px;
